@@ -136,6 +136,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+paperless_envio_automatico/
 *files.txt
 *.log
 

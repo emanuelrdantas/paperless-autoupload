@@ -272,7 +272,7 @@ class PaperlessMonitorGUI:
         # URL do servidor
         ttk.Label(config_frame, text="🌐 Servidor Paperless:").grid(
             row=0, column=0, sticky=tk.W, pady=5)
-        self.url_var = tk.StringVar(value="https://docs.dantaseletro.tv")
+        self.url_var = tk.StringVar(value="")
         url_entry = ttk.Entry(
             config_frame, textvariable=self.url_var, width=55, font=('TkDefaultFont', 10))
         url_entry.grid(row=0, column=1, sticky=(
